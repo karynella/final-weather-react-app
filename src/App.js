@@ -8,7 +8,7 @@ function App() {
         <Weather />
 
         <footer>
-          Coded by <a href="http://karyn.fun">Karynella</a> and is
+          Coded by <a href="http://www.karyn.fun">Karynella</a> and is{" "}
           <a
             href="https://github.com/karynella/final-weather-react-app"
             target="blank"

@@ -21,20 +21,18 @@
 .Weather li {
   font-size: 16px;
   line-height: 19px;
-  font-family: Google Sans, arial, sans-serif;
   font-weight: 100;
   list-style: none;
 }
 
 .Weather img {
-  height: 64px;
   width: 64px;
   margin-right: 10px;
   display: inline-block;
 }
 
 .Weather .temperature {
-  font-weight: 100;
+  font-weight: 400;
   font-size: 50px;
   color: rgb(33, 33, 33);
   line-height: 64px;
@@ -45,7 +43,7 @@
   font-size: 16px;
   font-weight: 400;
   position: relative;
-  top: -32px;
+  top: -28px;
   margin-left: 5px;
   line-height: 1;
 }
