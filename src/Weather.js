@@ -3,6 +3,7 @@ import axios from "axios";
 
 import "./Weather.css";
 import Weatherinfo from "./Weatherinfo.js";
+
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -17,12 +18,13 @@ export default function Weather(props) {
       rain: response.data.rain,
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
-      icon: `https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png`,
+      icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
   }
 
   function handleSubmit(event) {
     event.preventDefault();
+    search();
   }
 
   function search() {
@@ -33,7 +35,6 @@ export default function Weather(props) {
 
   function handleCityChange(event) {
     setCity(event.target.value);
-    search();
   }
 
   if (weatherData.ready) {
