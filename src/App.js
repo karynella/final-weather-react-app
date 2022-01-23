@@ -11,6 +11,7 @@ function App() {
           <a
             href="https://github.com/karynella/final-weather-react-app"
             target="blank"
+            rel="noopener noreferrer"
           >
             Open source code
           </a>{" "}
@@ -18,11 +19,13 @@ function App() {
           <a
             href="https://www.linkedin.com/in/karyn-pearce-88a85493/"
             target="blank"
+            mrel="noopener noreferrer"
           >
             <img
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/025/390/original/Linkedin-logo-1-550x550-300x300.png?1642869308"
               alt="LinkedIn"
               width="20"
+              rel="noopener noreferrer"
             />
           </a>{" "}
           <a href="https://www.instagram.com/karynella/" target="blank">
@@ -30,6 +33,7 @@ function App() {
               src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/025/389/original/5772032.png?1642869242"
               alt="Instagram"
               width="17"
+              rel="noopener noreferrer"
             />
           </a>
         </footer>
